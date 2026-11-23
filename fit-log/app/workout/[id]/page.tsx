@@ -1,5 +1,7 @@
 import WorkoutDetailsClient from "./workout-details-client";
 
+export const instant = false;
+
 interface PageProps {
   params: Promise<{
     id: string;
